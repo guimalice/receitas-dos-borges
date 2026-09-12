@@ -1,0 +1,132 @@
+header{
+    background-color:rgb(226, 198, 162);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+nav{
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+nav a{
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:none
+}
+body{
+    background-color: #edebe2;
+    text-align: center;
+}
+ h1{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+}
+section h2{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px
+}
+section h3{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+     margin: 20px
+}
+
+img{
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.card {
+    background-color: rgb(226, 198, 162);
+    padding: 28px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    align-self: flex-start;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.pesquisa {
+    margin: 30px auto;
+}
+
+.pesquisa input {
+    width: 50%;
+    padding: 15px;
+    border: 2px solid rgb(226, 198, 162);
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+}
+
+.pesquisa input:focus {
+    border-color: #b89568;
+    box-shadow: 0 0 8px rgba(184, 149, 104, 0.3);
+}
+.ingredientes {
+    display: none;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.card.aberto .ingredientes {
+    display: block;
+}
+
+.ingredientes h4 {
+    margin-bottom: 8px;
+}
+
+.ingredientes ul {
+    padding-left: 20px;
+}
+
+.card {
+    cursor: pointer;
+}
+.botaoIngredientes {
+    background-color: #8b6f47;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botaoIngredientes:hover {
+    opacity: 0.8;
+}
+
+.ingredientes {
+    display: none;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.ingredientes h4 {
+    text-align: center;
+}
+
+.ingredientes ul {
+    padding-left: 25px;
+}
+
+.ingredientes.aberto {
+    display: block;
+}
